@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Random Name generator</title>
+    
+</head>
+
+<body>
+       <header>
+
+        <h1 class="text-3xl"><i class="fa-brands fa-youtube text-red-600"></i>Random Channel Name Generator</h1>
+    </header>
+   <main>
+    <section>
+        <h2>Enter Your First Name</h2>
+        <form id="name-form" action="">
+            <input type="text" required class="placeholder-red-600 border-2 rounded-xl px-[1em]" placeholder="Enter First Name">
+            <button type="submit" aria-label="Submit" class="border-2 border-green-500 text-white px-[0.5em] rounded-xl bg-green-500"><i class="fa-solid fa-check"></i></button>
+        </form>
+    </section>
+    <section>
+        <h2>Suggestions : </h2>
+        <ul></ul>
+        <p>Click here to check name taken or not</p>
+    </section>
+   </main>
+   <script src="./js/vanilla.js" type="module"></script>
+</body>
+
+</html>
